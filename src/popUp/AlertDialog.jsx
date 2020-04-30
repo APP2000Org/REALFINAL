@@ -7,7 +7,7 @@ import Dialog from '@material-ui/core/Dialog';
 
 export default function AlertDialog(props) {
   const [open, setOpen] = React.useState(false);
-
+//Toogler om vinduet blir vist eller skjult
   const handleClickOpen = () => {
     setOpen(true);
   };
